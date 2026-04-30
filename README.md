@@ -11,6 +11,8 @@ Simple, elegant activity logging for Laravel — automatically records who did w
 [![PHP](https://img.shields.io/badge/PHP-7.4%2B-purple?style=flat-square&logo=php)](https://php.net)
 [![License](https://img.shields.io/github/license/delwarhossaindev/laravel-activity-log?style=flat-square&color=green)](LICENSE)
 
+📖 **[বিস্তারিত Code Documentation (বাংলা)](DOCUMENTATION.md)**
+
 </div>
 
 ---
