@@ -1,0 +1,54 @@
+{
+    "name": "delwarhossaindev/laravel-activity-log",
+    "description": "Simple and elegant activity logging for Laravel. Auto-track model events (created, updated, deleted) with old/new values.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "activity-log",
+        "audit-log",
+        "audit-trail",
+        "model-events",
+        "logging",
+        "admindashboard",
+        "bootstrap"
+    ],
+    "authors": [
+        {
+            "name": "Delwar Hossain",
+            "email": "delwarhossain1103104@gmail.com",
+            "homepage": "https://github.com/delwarhossaindev"
+        }
+    ],
+    "homepage": "https://github.com/delwarhossaindev/laravel-activity-log",
+    "support": {
+        "issues": "https://github.com/delwarhossaindev/laravel-activity-log/issues",
+        "source": "https://github.com/delwarhossaindev/laravel-activity-log"
+    },
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/database": "^8.0|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/auth": "^8.0|^9.0|^10.0|^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Delwarhossaindev\\ActivityLog\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Delwarhossaindev\\ActivityLog\\ActivityLogServiceProvider"
+            ],
+            "aliases": {
+                "ActivityLog": "Delwarhossaindev\\ActivityLog\\Facades\\ActivityLog"
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
