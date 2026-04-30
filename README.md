@@ -7,11 +7,24 @@
 Simple, elegant activity logging for Laravel — automatically records who did what, when, and how things changed.
 
 [![Latest Version](https://img.shields.io/packagist/v/delwarhossaindev/laravel-activity-log?style=flat-square&color=blue&label=version)](https://packagist.org/packages/delwarhossaindev/laravel-activity-log)
-[![Laravel](https://img.shields.io/badge/Laravel-10%2B-red?style=flat-square&logo=laravel)](https://laravel.com)
-[![PHP](https://img.shields.io/badge/PHP-8.1%2B-purple?style=flat-square&logo=php)](https://php.net)
+[![Laravel](https://img.shields.io/badge/Laravel-8%2B-red?style=flat-square&logo=laravel)](https://laravel.com)
+[![PHP](https://img.shields.io/badge/PHP-7.4%2B-purple?style=flat-square&logo=php)](https://php.net)
 [![License](https://img.shields.io/github/license/delwarhossaindev/laravel-activity-log?style=flat-square&color=green)](LICENSE)
 
 </div>
+
+---
+
+## 🔧 Requirements & Compatibility
+
+| Laravel Version | PHP Version | Support |
+|---|---|---|
+| Laravel **8.x** | PHP 7.4 / 8.0 | ✅ |
+| Laravel **9.x** | PHP 8.0 / 8.1 | ✅ |
+| Laravel **10.x** | PHP 8.1 / 8.2 | ✅ |
+| Laravel **11.x** | PHP 8.2 / 8.3 | ✅ |
+| Laravel **12.x** | PHP 8.2 / 8.3 / 8.4 | ✅ |
+| Laravel 7.x and below | — | ❌ Not supported |
 
 ---
 
